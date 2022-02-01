@@ -11,7 +11,6 @@ public class Main {
         Result result = JUnitCore.runClasses(MainPageTest.class);
         for (Failure failure : result.getFailures()) {
             System.out.println(failure.toString());
-
         }
     }
 }
